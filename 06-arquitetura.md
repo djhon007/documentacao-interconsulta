@@ -1,15 +1,37 @@
 # Arquitetura e Segurança
 
-## 1. Stack Técnica
-* Front-end, Back-end e Banco de Dados.
+## 1. Arquitetura da Solução
+### Front-End
+* Desenvolvido como uma SPA (Single Page Application) de alta fidelidade.
+* **Interface médica**: Foco em UX intuitiva para entrada de dados de gravidade.
+* **Interface da central de marcação**: Dashboard com tabelas atualizadas em tempo real para gestão de marcações.
+### Back-End
+* API isolada com o Motor de Regras (calculadora de gravidade).
+### Integrações
+*  API Gateway (ponte de comunicação com o AGHU).
+### Outros
+* Banco de Dados Relacional próprio (armazenar rastreabilidade "De/Para").
 
-## 2. Conformidade LGPD
+## Stack tecnológica e Framework
+## Front-End
+* Uso de Vue 3 + Vite para desenvolvimento rápido e uma interface reativa.
+
+## Back-End
+* FastAPI
+* Documentação de API automática via Swagger/OpenAPI.
+
+## Estrutura escalável
+* Separação de reponsabilidades entre Routers, Controllers e Providers.
+* Arquitetura de provedores que permite trocar a fonte dos dados facilmente.
+
+
+## 3. Conformidade LGPD
 * Anonimização e gestão de consentimento (TCLE).
 
-## 3. Acessos
+## 4. Acessos
 * RBAC e MFA.
 
-## 4. Guardrails para IA (SDD)
+## 5. Guardrails para IA (SDD)
 Para manter a integridade sistêmica, os assistentes de IA devem aderir às seguintes restrições:
 
 ### Escopo Positivo (O que fazer)
