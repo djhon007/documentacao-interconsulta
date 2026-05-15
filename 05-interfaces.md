@@ -1,10 +1,10 @@
 # Interfaces e Integrações
 
 ## 1. Protótipos
-* Links para Figma ou diretório /assets.
+* A fazer
 
 ## 2. Hardware
-* Impressoras térmicas e leitores de código de barras.
+* A fazer
 
 ## 3. Software
 * Integração com AGHU. 
