@@ -12,15 +12,15 @@
 ### Outros
 * Banco de Dados Relacional próprio (armazenar rastreabilidade "De/Para").
 
-## Stack tecnológica e Framework
-## Front-End
+## 2. Stack tecnológica e Framework
+### Front-End
 * Uso de Vue 3 + Vite para desenvolvimento rápido e uma interface reativa.
 
-## Back-End
+### Back-End
 * FastAPI
 * Documentação de API automática via Swagger/OpenAPI.
 
-## Estrutura escalável
+### Estrutura escalável
 * Separação de reponsabilidades entre Routers, Controllers e Providers.
 * Arquitetura de provedores que permite trocar a fonte dos dados facilmente.
 
